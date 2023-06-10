@@ -1,1 +1,90 @@
 
+body {
+    margin: 30px;
+    background-color: #F7F7F7; 
+}
+
+button:hover {
+    background-color: #E50914;
+}
+
+button {
+    border-radius: 4px;  
+    background-color: black;
+    color: white; 
+    font-size: 20px;
+    font-family: Verdana, sans-serif; 
+}
+
+form {
+    margin-top: 2%;
+    margin-bottom: 2%;  
+}
+
+#load-more-movies-btn{
+    border-color: white;
+    border: 2px; 
+    padding: 10px;
+    min-width: 70%;
+
+}
+
+
+#search-input{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 500px;
+    min-width: 70%;
+    border: none; 
+    border-bottom: 2px solid black;
+    outline:none; 
+    background-color: transparent;
+    padding: 10px;
+}
+
+.search-btn{
+    height: 40px;
+    width: 150px;
+    margin-left: 10px; 
+}
+.flixster-title {
+    color: #E50914; 
+    font-size: 80px; 
+    text-align: center;
+    font-family: Verdana, sans-serif; 
+    text-shadow: 2px 2px 2px #B31312; 
+}
+
+.movie-card:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+.movie-card {
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px; 
+    font-family: 'Nunito Sans', sans-serif; 
+    padding-bottom: 10px; 
+    width: 20%; 
+    height: 30%; 
+}
+
+
+.movie-card img {
+    height: 100%;
+    width: 100%;  
+    border-radius: 5px;  
+}
+
+.movie-title {
+    font-size: 18px; 
+    font-weight: 700; 
+    max-width: 97%;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
